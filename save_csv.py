@@ -49,8 +49,8 @@ while pyautogui.locateOnScreen('file_name.png'):
     # Определяем координаты кнопки "Имя файла" на экране
     save_button_location = pyautogui.locateOnScreen('file_name.png')
     pyautogui.click(save_button_location)
-    time.sleep(0.5)
+    time.sleep(0.25)
     ok_button_location = pyautogui.locateOnScreen('save_button.png')
     pyautogui.click(ok_button_location)
-    time.sleep(0.5)
+    time.sleep(0.25)
 print("Сохранение успешно завершено")
